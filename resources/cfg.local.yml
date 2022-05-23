@@ -1,0 +1,6 @@
+service:
+  name: "chrome-crawler"
+  version: "v0.0.1"
+
+cron_schedules:
+  crawler: "@every 5s"
